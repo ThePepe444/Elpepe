@@ -2,115 +2,8 @@
 
 import ScrollAnimation from "@/components/scroll-animation";
 import { motion } from "framer-motion";
-import { useState } from "react";
 
 export default function PortfolioPage() {
-  const [selectedCategory, setSelectedCategory] = useState("all");
-
-  const categories = [
-    { id: "all", name: "Todos" },
-    { id: "landing", name: "Landing Pages" },
-    { id: "corporate", name: "Sitios Corporativos" },
-    { id: "ecommerce", name: "E-commerce" },
-  ];
-
-  const projects = [
-    {
-      id: 1,
-      title: "TechStart Landing",
-      category: "landing",
-      description: "Landing page para startup de tecnología con enfoque en conversión y velocidad.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
-      results: {
-        conversion: "+45%",
-        speed: "0.8s",
-        mobile: "98/100"
-      },
-      link: "#",
-      featured: true
-    },
-    {
-      id: 2,
-      title: "EcoCorp Website",
-      category: "corporate",
-      description: "Sitio corporativo completo para empresa de energías renovables con blog y panel admin.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
-      results: {
-        traffic: "+120%",
-        engagement: "+67%",
-        leads: "+89%"
-      },
-      link: "#",
-      featured: true
-    },
-    {
-      id: 3,
-      title: "FashionStore E-commerce",
-      category: "ecommerce",
-      description: "Tienda online headless con gestión de inventario y múltiples métodos de pago.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Next.js", "Stripe", "Sanity CMS", "Vercel"],
-      results: {
-        sales: "+200%",
-        conversion: "+78%",
-        performance: "95/100"
-      },
-      link: "#",
-      featured: false
-    },
-    {
-      id: 4,
-      title: "RestaurantApp",
-      category: "landing",
-      description: "Aplicación web para restaurante con menú digital, reservas y delivery.",
-      image: "/api/placeholder/600/400",
-      technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
-      results: {
-        orders: "+150%",
-        satisfaction: "4.8/5",
-        efficiency: "+60%"
-      },
-      link: "#",
-      featured: false
-    },
-    {
-      id: 5,
-      title: "LawFirm Portal",
-      category: "corporate",
-      description: "Portal web para firma de abogados con sistema de citas y documentación.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Next.js", "Auth.js", "Supabase", "Stripe"],
-      results: {
-        clients: "+85%",
-        efficiency: "+70%",
-        satisfaction: "4.9/5"
-      },
-      link: "#",
-      featured: false
-    },
-    {
-      id: 6,
-      title: "FitnessShop",
-      category: "ecommerce",
-      description: "Tienda online de productos fitness con sistema de membresías y entrenamientos.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Next.js", "Shopify", "Algolia", "Klaviyo"],
-      results: {
-        revenue: "+180%",
-        retention: "+45%",
-        conversion: "+92%"
-      },
-      link: "#",
-      featured: false
-    }
-  ];
-
-  const filteredProjects = selectedCategory === "all" 
-    ? projects 
-    : projects.filter(project => project.category === selectedCategory);
-
   return (
     <div className="min-h-screen py-16">
       <div className="mx-auto max-w-6xl px-4">
@@ -121,138 +14,139 @@ export default function PortfolioPage() {
               Mi Portfolio
             </h1>
             <p className="text-xl text-foreground/80 max-w-3xl mx-auto leading-relaxed">
-              Proyectos destacados que demuestran mi experiencia en desarrollo web. 
-              Cada proyecto está optimizado para rendimiento, conversión y experiencia de usuario.
+              Estoy construyendo mi portafolio de proyectos. Cada proyecto será único y diseñado 
+              específicamente para las necesidades del cliente, optimizado para rendimiento y conversión.
             </p>
           </div>
         </ScrollAnimation>
 
-        {/* Filtros */}
+        {/* Estado actual */}
         <ScrollAnimation delay={0.2}>
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {categories.map((category) => (
-              <button
-                key={category.id}
-                onClick={() => setSelectedCategory(category.id)}
-                className={`px-6 py-3 rounded-lg font-medium transition-all duration-200 ${
-                  selectedCategory === category.id
-                    ? "bg-primary text-white shadow-lg"
-                    : "bg-background/50 border border-border text-foreground/70 hover:bg-background/70 hover:border-primary/50"
-                }`}
-              >
-                {category.name}
-              </button>
-            ))}
+          <div className="text-center mb-16">
+            <div className="bg-background/30 backdrop-blur-sm border border-border rounded-2xl p-8 md:p-12 max-w-4xl mx-auto">
+              <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-12 h-12 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4" />
+                </svg>
+              </div>
+              
+              <h2 className="text-2xl sm:text-3xl font-semibold mb-4">
+                Construyendo mi portafolio
+              </h2>
+              
+              <p className="text-foreground/70 mb-8 max-w-2xl mx-auto leading-relaxed">
+                Actualmente estoy enfocado en desarrollar proyectos de calidad para mis primeros clientes. 
+                Cada proyecto será documentado aquí con detalles sobre las tecnologías utilizadas, 
+                desafíos resueltos y resultados obtenidos.
+              </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div className="text-center p-4">
+                  <div className="w-12 h-12 bg-green-500/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-semibold mb-1">Proyectos Reales</h3>
+                  <p className="text-sm text-foreground/60">Solo trabajo real con clientes</p>
+                </div>
+
+                <div className="text-center p-4">
+                  <div className="w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-semibold mb-1">Rendimiento</h3>
+                  <p className="text-sm text-foreground/60">Optimizado para velocidad</p>
+                </div>
+
+                <div className="text-center p-4">
+                  <div className="w-12 h-12 bg-purple-500/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-semibold mb-1">Conversión</h3>
+                  <p className="text-sm text-foreground/60">Enfocado en resultados</p>
+                </div>
+              </div>
+            </div>
           </div>
         </ScrollAnimation>
 
-        {/* Proyectos Grid */}
+        {/* Tipos de proyectos que haré */}
         <ScrollAnimation delay={0.4}>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredProjects.map((project, index) => (
-              <motion.article
-                key={project.id}
-                className="group relative overflow-hidden rounded-2xl bg-background/30 backdrop-blur-sm border border-border hover:border-primary/50 transition-all duration-300"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1 * index }}
-                whileHover={{ y: -5 }}
-              >
-                {/* Imagen del proyecto */}
-                <div className="relative h-48 overflow-hidden">
-                  <div className="w-full h-full bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                        </svg>
-                      </div>
-                      <p className="text-sm text-foreground/60">Imagen del proyecto</p>
-                    </div>
+          <div className="mb-16">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-8">
+              Tipos de proyectos que desarrollaré
+            </h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[
+                {
+                  title: "Landing Pages",
+                  description: "Páginas de aterrizaje optimizadas para conversión con diseño moderno y velocidad de carga rápida.",
+                  icon: (
+                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                  ),
+                  color: "from-blue-500 to-cyan-500"
+                },
+                {
+                  title: "Sitios Corporativos",
+                  description: "Sitios web profesionales para empresas con múltiples páginas, blog y panel de administración.",
+                  icon: (
+                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                  ),
+                  color: "from-purple-500 to-pink-500"
+                },
+                {
+                  title: "E-commerce",
+                  description: "Tiendas online modernas con gestión de productos, pagos seguros y experiencia de compra optimizada.",
+                  icon: (
+                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                    </svg>
+                  ),
+                  color: "from-green-500 to-emerald-500"
+                }
+              ].map((project, index) => (
+                <motion.div
+                  key={project.title}
+                  className="group relative overflow-hidden rounded-xl bg-background/30 backdrop-blur-sm border border-border p-6 hover:border-primary/50 transition-all duration-300"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.1 * index }}
+                  whileHover={{ y: -5 }}
+                >
+                  <div className={`w-12 h-12 rounded-lg bg-gradient-to-r ${project.color} flex items-center justify-center text-white mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                    {project.icon}
                   </div>
                   
-                  {/* Badge destacado */}
-                  {project.featured && (
-                    <div className="absolute top-4 left-4 bg-yellow-500 text-black px-3 py-1 rounded-full text-xs font-semibold">
-                      Destacado
-                    </div>
-                  )}
-                </div>
-
-                {/* Contenido */}
-                <div className="p-6">
-                  <div className="mb-4">
-                    <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">
-                      {project.title}
-                    </h3>
-                    <p className="text-foreground/70 text-sm leading-relaxed">
-                      {project.description}
-                    </p>
-                  </div>
-
-                  {/* Tecnologías */}
-                  <div className="mb-4">
-                    <h4 className="text-xs font-medium text-foreground/60 uppercase tracking-wide mb-2">
-                      Tecnologías
-                    </h4>
-                    <div className="flex flex-wrap gap-2">
-                      {project.technologies.map((tech, techIndex) => (
-                        <span
-                          key={techIndex}
-                          className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-md"
-                        >
-                          {tech}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Resultados */}
-                  <div className="mb-4">
-                    <h4 className="text-xs font-medium text-foreground/60 uppercase tracking-wide mb-2">
-                      Resultados
-                    </h4>
-                    <div className="grid grid-cols-2 gap-2">
-                      {Object.entries(project.results).map(([key, value]) => (
-                        <div key={key} className="text-center p-2 bg-background/50 rounded-lg">
-                          <p className="text-lg font-bold text-primary">{value}</p>
-                          <p className="text-xs text-foreground/60 capitalize">{key}</p>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Botón de acción */}
-                  <div className="pt-4 border-t border-border/50">
-                    <a
-                      href={project.link}
-                      className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors"
-                    >
-                      Ver proyecto
-                      <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-
-                {/* Efecto de brillo */}
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
-              </motion.article>
-            ))}
+                  <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
+                  <p className="text-foreground/70 text-sm leading-relaxed">{project.description}</p>
+                  
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
+                </motion.div>
+              ))}
+            </div>
           </div>
         </ScrollAnimation>
 
         {/* CTA Section */}
         <ScrollAnimation delay={0.6}>
-          <div className="text-center mt-16">
+          <div className="text-center">
             <div className="bg-background/20 backdrop-blur-sm border border-border rounded-2xl p-8 md:p-12 max-w-4xl mx-auto">
               <h2 className="text-2xl sm:text-3xl font-semibold mb-4">
-                ¿Te gusta lo que ves?
+                ¿Quieres ser mi primer proyecto?
               </h2>
               <p className="text-foreground/70 mb-8 max-w-2xl mx-auto">
-                Cada proyecto es único y diseñado específicamente para las necesidades del cliente. 
-                ¿Tienes una idea en mente? ¡Hablemos sobre tu proyecto!
+                Estoy buscando mi primer cliente para crear algo increíble juntos. 
+                Serás parte de mi historia desde el principio y tendrás mi dedicación completa.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
