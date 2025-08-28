@@ -43,6 +43,8 @@ Sitio web personal para servicios de desarrollo web freelance, construido con Ne
    ```env
    NEXT_PUBLIC_SITE_URL=http://localhost:3000
    NEXT_PUBLIC_CALENDLY_URL=https://calendly.com/tu-usuario
+   EMAIL_USER=tu-email@gmail.com
+   EMAIL_PASS=tu-contraseña-de-aplicación
    ```
 
 4. **Ejecutar en desarrollo**
@@ -91,6 +93,9 @@ Fondo animado con efecto dither usando Three.js y shaders.
 ### ScrollAnimation
 Animaciones de entrada basadas en scroll con Framer Motion.
 
+### ContactForm
+Formulario de contacto completo con validación, envío de emails y confirmaciones automáticas.
+
 ## 🔧 Scripts Disponibles
 
 ```bash
@@ -130,6 +135,11 @@ Editar `src/app/globals.css`:
 1. Crear componente en `src/components/`
 2. Importar en `src/app/page.tsx`
 3. Añadir con `ScrollAnimation`
+
+### Configurar Email del Formulario
+1. **Gmail**: Habilitar autenticación de 2 factores y generar contraseña de aplicación
+2. **Variables de entorno**: Configurar `EMAIL_USER` y `EMAIL_PASS` en `.env.local`
+3. **Probar**: Enviar mensaje de prueba desde el formulario de contacto
 
 ## 🤝 Contribuir
 
