@@ -1,0 +1,225 @@
+
+> freelancer-site@0.1.0 dev
+> next dev --turbopack -p 3002
+
+   ▲ Next.js 15.5.1 (Turbopack)
+   - Local:        http://localhost:3002
+   - Network:      http://192.168.101.142:3002
+
+ ✓ Starting...
+ ✓ Ready in 2.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 6.1s
+ HEAD / 200 in 6824ms
+ GET / 200 in 400ms
+ ✓ Compiled /favicon.ico in 462ms
+ GET /favicon.ico?favicon.0b3bf435.ico 200 in 922ms
+ ✓ Compiled in 202ms
+ ✓ Compiled in 158ms
+ ✓ Compiled / in 214ms
+ GET / 200 in 423ms
+ ○ Compiling /portfolio ...
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.wrjpf3ivnge'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.wrjpf3ivnge'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.c79fbusn29m'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.c79fbusn29m'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.i0kb15zbpy'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.i0kb15zbpy'
+}
+ ✓ Compiled /portfolio in 8s
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.poq12uxa6on'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.poq12uxa6on'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.s1syrg09orp'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.s1syrg09orp'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.2fiufy3j5i3'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.2fiufy3j5i3'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.i0kb15zbpy'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.i0kb15zbpy'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.wrjpf3ivnge'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.wrjpf3ivnge'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.c79fbusn29m'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.c79fbusn29m'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.8g00nfusygp'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.8g00nfusygp'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.x67244cv4ib'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.x67244cv4ib'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.h86eayxo4xk'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.h86eayxo4xk'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.g9pm5lcjr2p'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.g9pm5lcjr2p'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.52lo2kxa5lj'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.52lo2kxa5lj'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.orvgfkox42e'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.orvgfkox42e'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.eheasc6gkii'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.eheasc6gkii'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.qhehx5erd8'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.qhehx5erd8'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.eheasc6gkii'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.eheasc6gkii'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.1vfb5hj1pp5'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.1vfb5hj1pp5'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.dgrp3c989gr'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.dgrp3c989gr'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.5yvgjxjip2s'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.5yvgjxjip2s'
+}
+ ✓ Compiled in 128ms
+ ✓ Compiled in 92ms
+ ✓ Compiled /contacto in 85ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.pnwae5rpnfo'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.pnwae5rpnfo'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.s1cibavb96'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.s1cibavb96'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.pnwae5rpnfo'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.pnwae5rpnfo'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.a00umha7vq'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.a00umha7vq'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.6p1fyo92drg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.6p1fyo92drg'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.xmuymwrxcw'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.xmuymwrxcw'
+}
+ ✓ Compiled / in 106ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.n82ceo1dg2'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.n82ceo1dg2'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.j3xu455mzps'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.j3xu455mzps'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.n82ceo1dg2'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.n82ceo1dg2'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.npmksjohv9q'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.npmksjohv9q'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.5jj5hnws5k6'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.5jj5hnws5k6'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\emanu\OneDrive\Documentos\Elpepe\freelancer-site\.next\static\development\_buildManifest.js.tmp.lxnsnxcr89'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\emanu\\OneDrive\\Documentos\\Elpepe\\freelancer-site\\.next\\static\\development\\_buildManifest.js.tmp.lxnsnxcr89'
+}
+[?25h
