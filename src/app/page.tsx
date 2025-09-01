@@ -284,9 +284,9 @@ export default function Home() {
               <div className="bg-gradient-to-r from-gray-900/20 via-gray-800/20 to-gray-700/20 rounded-xl p-6 border border-gray-500/20">
                 <h4 className="text-lg font-semibold mb-3">Mi filosofía</h4>
                 <p className="text-foreground/80 leading-relaxed">
-                  "Creo que cada proyecto web debe ser más que solo código. Debe ser una herramienta 
+                  &ldquo;Creo que cada proyecto web debe ser más que solo código. Debe ser una herramienta 
                   que impulse tu negocio hacia adelante, conecte con tu audiencia y genere resultados 
-                  medibles. Mi objetivo es convertir tus ideas en experiencias digitales excepcionales."
+                  medibles. Mi objetivo es convertir tus ideas en experiencias digitales excepcionales.&rdquo;
                 </p>
               </div>
             </ScrollAnimation>
@@ -376,7 +376,7 @@ export default function Home() {
                     )}
                     
                     <a
-                      href="mailto:hola@emanuelpulido.dev"
+                      href="mailto:emanuelpulido.dev@gmail.com"
                       className="inline-flex items-center space-x-2 rounded-xl border border-gray-600 text-gray-300 px-8 py-4 text-lg font-semibold hover:bg-gray-800/50 hover:border-gray-500 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2"
                     >
                       <span>✉️</span>
