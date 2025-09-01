@@ -25,7 +25,7 @@ export function SiteHeader() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border/40">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto max-w-5xl px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="font-semibold tracking-tight text-lg">
@@ -94,7 +94,7 @@ export function SiteHeader() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-background/95 backdrop-blur border-b border-border/40"
+            className="md:hidden bg-background/95 backdrop-blur"
           >
             <div className="px-4 py-6 space-y-6">
               {/* Mobile Navigation */}
@@ -122,7 +122,7 @@ export function SiteHeader() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 }}
-                className="pt-4 border-t border-border/40"
+                className="pt-4"
               >
                 {isExternal ? (
                   <a
